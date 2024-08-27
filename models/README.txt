@@ -1,0 +1,1 @@
+Nesta pasta ficam as entidades da aplicação.
