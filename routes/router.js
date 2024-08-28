@@ -1,7 +1,11 @@
-import { express } from "express";
+import express from "express";
+// o Express não usa exportacão nomeada, 
+// mas sim exportacão comum (module.exports = express)
 
-let router = express.Router();
+// Criando um roteador:
+const router = express.Router();
 
+// Definindo uma rota:
 router.get(
     "/", function(req, res) {
         console.log("hi!") ;

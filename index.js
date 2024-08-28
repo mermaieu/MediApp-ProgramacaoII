@@ -1,12 +1,11 @@
-import { express } from "express";
-import { pkg } from "body-parser";
-import { router } from "./routes/router.js";
+import express from "express";
+import bodyParser from "body-parser";
+import router from "./routes/router.js";
 
 const app = express();  
 // Cria uma nova instância de uma aplicação Express.
 
-
-const {json, urlencoded} = pkg;
+const {json, urlencoded} = bodyParser;
 // Para trabalhar com a parte de requisição e resposta.
 // Desestrutura os métodos json e urlencoded do módulo body-parser.
 
