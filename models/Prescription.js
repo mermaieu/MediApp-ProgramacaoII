@@ -5,10 +5,6 @@ const Schema = mongoose.Schema;
 
 const prescriptionSchema = new Schema(
     {   
-        prescriptionId: {
-            type: String,
-            required: [true, 'PrescriptionId is required.']
-        },
         date: {
             type: Date,
             default: null  

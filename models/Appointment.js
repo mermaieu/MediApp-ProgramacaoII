@@ -5,10 +5,6 @@ const Schema = mongoose.Schema;
 
 const appointmentSchema = new Schema(
     {   
-        appointmentId: {
-            type: String,
-            required: [true, 'AppointmentId is required.']
-        },
         date: {
             type: Date,
             required: [true, 'Appointment Date is required.']
