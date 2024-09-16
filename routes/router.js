@@ -17,10 +17,15 @@ router.get(
     }
 );
 
-// Mapeamento de rotas dos Controleadores
-router.use("/", appointmentController);
+// Mapeamento das rotas dos Controladores
+router.use("/", appointmentController);     // a rota será acessada a partir da entrada da aplicacão.
 router.use("/", doctorController);
 router.use("/", pacientController);
 router.use("/", prescriptionController);
 
 export default router;
+
+/**
+ * A '/' representa a entrada da aplicacão.
+ * router.use("/" appointmentController); indica que a rota será acessada a partir da entrada da aplicacão.
+ */
