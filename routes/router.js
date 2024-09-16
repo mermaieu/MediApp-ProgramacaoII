@@ -1,6 +1,6 @@
-import express from "express";
-// o Express não usa exportacão nomeada, 
-// mas sim exportacão comum (module.exports = express)
+import express from "express";  // Ele não usa exportacão nomeada, mas sim exportacão comum (module.exports = express)
+
+// Importacão das dependências dos controladores
 import appointmentController from "./AppointmentController.js";
 import doctorController from "./DoctorController.js";
 import pacientController from "./PacientController.js";
