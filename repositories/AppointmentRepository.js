@@ -1,4 +1,4 @@
-import {Appointment} from "../models/Appointment.js";
+import appointment from "../models/Appointment.js";
 
 // CREATE
 const saveAppointment = async ({date, doctorId, pacientId}) => {

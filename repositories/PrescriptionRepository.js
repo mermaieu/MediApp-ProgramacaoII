@@ -1,4 +1,4 @@
-import {Prescription} from "../models/Prescription.js";
+import prescription from "../models/Prescription.js";
 
 // CREATE
 const savePrescription = async ({date, appointmentId, medicine, dosage, instructions}) => {

@@ -4,7 +4,7 @@ import express from "express";  // Ele não usa exportacão nomeada, mas sim exp
 import appointmentController from "./AppointmentController.js";
 import doctorController from "./DoctorController.js";
 import pacientController from "./PacientController.js";
-import prescriptionController from "./PrescriptionController";
+import prescriptionController from "./PrescriptionController.js";
 
 // Criando um roteador:
 const router = express.Router();
